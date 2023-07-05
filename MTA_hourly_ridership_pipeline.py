@@ -12,6 +12,7 @@ import logging
 import os
 from airflow.sensors.external_task import ExternalTaskSensor
 from airflow.operators.empty import EmptyOperator
+import json
 
 
 # Configure logging
