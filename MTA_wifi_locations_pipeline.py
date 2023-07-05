@@ -475,7 +475,7 @@ def skip():
 
 # Define the dummy task that does nothing
 skip_data_processing = EmptyOperator(
-    task_id='skip_data_processing',
+    task_id='skip',
     dag=dag,
 )
 
