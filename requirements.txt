@@ -1,0 +1,4 @@
+apache-airflow==2.6.2
+pandas==2.0.2
+Requests==2.31.0
+SQLAlchemy==1.4.48
